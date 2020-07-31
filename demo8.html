@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var grades = {
+		'list' : {'egoing' : 10,'k8805':8, 'sorialgi':80},
+		'show' : function(){
+			for(var name in this.list){
+				console.log(name,this.list[name]);
+			}
+			
+		}
+	}
+	
+	grades.show();// grade['show']와 똑같은 기능을 한다. 
+	
+</script>
+</body>
+</html>
